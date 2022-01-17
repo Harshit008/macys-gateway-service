@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD ./target/macys-gateway-service-0.0.1-SNAPSHOT.jar /macys-gateway-service-0.0.1-SNAPSHOT.jar
+CMD ["java","-jar", "macys-gateway-service-0.0.1-SNAPSHOT.jar"]
+EXPOSE 90
